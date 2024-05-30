@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "technja3_background_sky_white_and_red_and_ground_with_green_gra_a1cb01fc-1d9a-4390-81ae-4474a09bbc84 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "technja3_background_sky_white_and_red_and_ground_with_green_gra_a1cb01fc-1d9a-4390-81ae-4474a09bbc84 1 (1).png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "technja3_background_sky_white_and_red_and_ground_with_green_gra_a1cb01fc-1d9a-4390-81ae-4474a09bbc84 1 (2).png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

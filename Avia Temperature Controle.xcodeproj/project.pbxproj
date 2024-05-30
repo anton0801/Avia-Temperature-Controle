@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEAE7E562BFBDFC10087FA88 /* Avia_Temperature_ControleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E552BFBDFC10087FA88 /* Avia_Temperature_ControleApp.swift */; };
+		EEAE7E582BFBDFC10087FA88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E572BFBDFC10087FA88 /* ContentView.swift */; };
+		EEAE7E5A2BFBDFC40087FA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7E592BFBDFC40087FA88 /* Assets.xcassets */; };
+		EEAE7E5D2BFBDFC40087FA88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7E5C2BFBDFC40087FA88 /* Preview Assets.xcassets */; };
+		EEAE7E662BFBE2340087FA88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E652BFBE2340087FA88 /* HomeView.swift */; };
+		EEAE7E692BFBE4650087FA88 /* ConfigurationGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E682BFBE4650087FA88 /* ConfigurationGameView.swift */; };
+		EEAE7E6C2BFBE4CF0087FA88 /* LevelsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E6B2BFBE4CF0087FA88 /* LevelsGameView.swift */; };
+		EEAE7E6E2BFBE5C30087FA88 /* ZenAntique-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7E6D2BFBE5C30087FA88 /* ZenAntique-Regular.ttf */; };
+		EEAE7E722BFCB5340087FA88 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E712BFCB5340087FA88 /* Level.swift */; };
+		EEAE7E752BFCB5D80087FA88 /* LevelsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E742BFCB5D80087FA88 /* LevelsGenerator.swift */; };
+		EEAE7E772BFCB8130087FA88 /* LevelChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E762BFCB8130087FA88 /* LevelChecker.swift */; };
+		EEAE7E7A2BFCC0C40087FA88 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E792BFCC0C30087FA88 /* ShopView.swift */; };
+		EEAE7E7C2BFCC0D90087FA88 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E7B2BFCC0D90087FA88 /* ShopData.swift */; };
+		EEAE7E7E2BFCC19C0087FA88 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E7D2BFCC19C0087FA88 /* UserData.swift */; };
+		EEAE7E812BFCD3980087FA88 /* SceneGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E802BFCD3980087FA88 /* SceneGameView.swift */; };
+		EEAE7E842BFCD5B20087FA88 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E832BFCD5B20087FA88 /* GameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEAE7E522BFBDFC10087FA88 /* Avia Temperature Controle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avia Temperature Controle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAE7E552BFBDFC10087FA88 /* Avia_Temperature_ControleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avia_Temperature_ControleApp.swift; sourceTree = "<group>"; };
+		EEAE7E572BFBDFC10087FA88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEAE7E592BFBDFC40087FA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEAE7E5C2BFBDFC40087FA88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEAE7E652BFBE2340087FA88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEAE7E682BFBE4650087FA88 /* ConfigurationGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationGameView.swift; sourceTree = "<group>"; };
+		EEAE7E6B2BFBE4CF0087FA88 /* LevelsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsGameView.swift; sourceTree = "<group>"; };
+		EEAE7E6D2BFBE5C30087FA88 /* ZenAntique-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenAntique-Regular.ttf"; sourceTree = "<group>"; };
+		EEAE7E6F2BFBE5CD0087FA88 /* Avia-Temperature-Controle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Avia-Temperature-Controle-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEAE7E712BFCB5340087FA88 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		EEAE7E742BFCB5D80087FA88 /* LevelsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsGenerator.swift; sourceTree = "<group>"; };
+		EEAE7E762BFCB8130087FA88 /* LevelChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelChecker.swift; sourceTree = "<group>"; };
+		EEAE7E792BFCC0C30087FA88 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		EEAE7E7B2BFCC0D90087FA88 /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		EEAE7E7D2BFCC19C0087FA88 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EEAE7E802BFCD3980087FA88 /* SceneGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneGameView.swift; sourceTree = "<group>"; };
+		EEAE7E832BFCD5B20087FA88 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAE7E4F2BFBDFC10087FA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEAE7E492BFBDFC10087FA88 = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E542BFBDFC10087FA88 /* Avia Temperature Controle */,
+				EEAE7E532BFBDFC10087FA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAE7E532BFBDFC10087FA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E522BFBDFC10087FA88 /* Avia Temperature Controle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAE7E542BFBDFC10087FA88 /* Avia Temperature Controle */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E732BFCB5CD0087FA88 /* Data */,
+				EEAE7E702BFCB52B0087FA88 /* Model */,
+				EEAE7E6F2BFBE5CD0087FA88 /* Avia-Temperature-Controle-Info.plist */,
+				EEAE7E6D2BFBE5C30087FA88 /* ZenAntique-Regular.ttf */,
+				EEAE7E632BFBE2210087FA88 /* Views */,
+				EEAE7E552BFBDFC10087FA88 /* Avia_Temperature_ControleApp.swift */,
+				EEAE7E572BFBDFC10087FA88 /* ContentView.swift */,
+				EEAE7E592BFBDFC40087FA88 /* Assets.xcassets */,
+				EEAE7E5B2BFBDFC40087FA88 /* Preview Content */,
+			);
+			path = "Avia Temperature Controle";
+			sourceTree = "<group>";
+		};
+		EEAE7E5B2BFBDFC40087FA88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E5C2BFBDFC40087FA88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEAE7E632BFBE2210087FA88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E7F2BFCD3850087FA88 /* TemperatureControleGame */,
+				EEAE7E782BFCBE6F0087FA88 /* Shop */,
+				EEAE7E6A2BFBE4C20087FA88 /* LevelsView */,
+				EEAE7E672BFBE4370087FA88 /* Configuration */,
+				EEAE7E642BFBE2290087FA88 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEAE7E642BFBE2290087FA88 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E652BFBE2340087FA88 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EEAE7E672BFBE4370087FA88 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E682BFBE4650087FA88 /* ConfigurationGameView.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EEAE7E6A2BFBE4C20087FA88 /* LevelsView */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E6B2BFBE4CF0087FA88 /* LevelsGameView.swift */,
+			);
+			path = LevelsView;
+			sourceTree = "<group>";
+		};
+		EEAE7E702BFCB52B0087FA88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E712BFCB5340087FA88 /* Level.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEAE7E732BFCB5CD0087FA88 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E742BFCB5D80087FA88 /* LevelsGenerator.swift */,
+				EEAE7E762BFCB8130087FA88 /* LevelChecker.swift */,
+				EEAE7E7B2BFCC0D90087FA88 /* ShopData.swift */,
+				EEAE7E7D2BFCC19C0087FA88 /* UserData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EEAE7E782BFCBE6F0087FA88 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E792BFCC0C30087FA88 /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		EEAE7E7F2BFCD3850087FA88 /* TemperatureControleGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E822BFCD5A80087FA88 /* GameScene */,
+				EEAE7E802BFCD3980087FA88 /* SceneGameView.swift */,
+			);
+			path = TemperatureControleGame;
+			sourceTree = "<group>";
+		};
+		EEAE7E822BFCD5A80087FA88 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E832BFCD5B20087FA88 /* GameScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAE7E512BFBDFC10087FA88 /* Avia Temperature Controle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAE7E602BFBDFC40087FA88 /* Build configuration list for PBXNativeTarget "Avia Temperature Controle" */;
+			buildPhases = (
+				EEAE7E4E2BFBDFC10087FA88 /* Sources */,
+				EEAE7E4F2BFBDFC10087FA88 /* Frameworks */,
+				EEAE7E502BFBDFC10087FA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avia Temperature Controle";
+			productName = "Avia Temperature Controle";
+			productReference = EEAE7E522BFBDFC10087FA88 /* Avia Temperature Controle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAE7E4A2BFBDFC10087FA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEAE7E512BFBDFC10087FA88 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEAE7E4D2BFBDFC10087FA88 /* Build configuration list for PBXProject "Avia Temperature Controle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAE7E492BFBDFC10087FA88;
+			productRefGroup = EEAE7E532BFBDFC10087FA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAE7E512BFBDFC10087FA88 /* Avia Temperature Controle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAE7E502BFBDFC10087FA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAE7E5D2BFBDFC40087FA88 /* Preview Assets.xcassets in Resources */,
+				EEAE7E6E2BFBE5C30087FA88 /* ZenAntique-Regular.ttf in Resources */,
+				EEAE7E5A2BFBDFC40087FA88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAE7E4E2BFBDFC10087FA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAE7E722BFCB5340087FA88 /* Level.swift in Sources */,
+				EEAE7E662BFBE2340087FA88 /* HomeView.swift in Sources */,
+				EEAE7E772BFCB8130087FA88 /* LevelChecker.swift in Sources */,
+				EEAE7E7A2BFCC0C40087FA88 /* ShopView.swift in Sources */,
+				EEAE7E6C2BFBE4CF0087FA88 /* LevelsGameView.swift in Sources */,
+				EEAE7E812BFCD3980087FA88 /* SceneGameView.swift in Sources */,
+				EEAE7E7E2BFCC19C0087FA88 /* UserData.swift in Sources */,
+				EEAE7E7C2BFCC0D90087FA88 /* ShopData.swift in Sources */,
+				EEAE7E842BFCD5B20087FA88 /* GameScene.swift in Sources */,
+				EEAE7E752BFCB5D80087FA88 /* LevelsGenerator.swift in Sources */,
+				EEAE7E582BFBDFC10087FA88 /* ContentView.swift in Sources */,
+				EEAE7E562BFBDFC10087FA88 /* Avia_Temperature_ControleApp.swift in Sources */,
+				EEAE7E692BFBE4650087FA88 /* ConfigurationGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEAE7E5E2BFBDFC40087FA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEAE7E5F2BFBDFC40087FA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAE7E612BFBDFC40087FA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Temperature Controle/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Temperature-Controle-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Temperature-Controle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEAE7E622BFBDFC40087FA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Temperature Controle/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Temperature-Controle-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Temperature-Controle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAE7E4D2BFBDFC10087FA88 /* Build configuration list for PBXProject "Avia Temperature Controle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAE7E5E2BFBDFC40087FA88 /* Debug */,
+				EEAE7E5F2BFBDFC40087FA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAE7E602BFBDFC40087FA88 /* Build configuration list for PBXNativeTarget "Avia Temperature Controle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAE7E612BFBDFC40087FA88 /* Debug */,
+				EEAE7E622BFBDFC40087FA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAE7E4A2BFBDFC10087FA88 /* Project object */;
+}
